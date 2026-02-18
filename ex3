@@ -1,0 +1,8 @@
+let nota1 = Number(prompt("Digite sua primeira nota:"))
+        let nota2 = Number(prompt("Digite sua segunda nota:"))
+        let nota3 = Number(prompt("Digite de 0-10 quanto esta sua frequencia nas aulas?"))
+
+        let nota = (nota1 + nota2 + nota3)/3
+        
+      const resultado = nota >= 7 ? "Aprovado" : "Reprovado";
+      alert(resultado)
