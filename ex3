@@ -4,5 +4,5 @@ let nota1 = Number(prompt("Digite sua primeira nota:"))
 
         let nota = (nota1 + nota2 + nota3)/3
         
-      const resultado = nota >= 7 ? "Aprovado" : "Reprovado";
+      const resultado = nota <= 7 ? "Aprovado" : "Reprovado";
       alert(resultado)
