@@ -5,7 +5,7 @@ let dia = Number(prompt("Digita um numero de 1 a 5 para o dia da semana"))
 switch(dia){
     case 1:
         // se o numero for 1 
-    alert("Segunda-feira: Sias um dia lindo. Bom dia!!!!!!!!!!!!")
+    alert("2°")
     break
 
     case 2: 
