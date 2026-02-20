@@ -1,10 +1,9 @@
-let condicional = 300
-let numero = 10
+let condicional: number = 300
+let numero: number = 10
 
-const a = condicional + 50
-const b = a + numero * 10;
+const a: number = condicional + 50;
+const b: number = a + numero * 10;
 
-function exemplo(){
- System.out.println(a + b);
-
+function exemplo(): void {
+    console.log(a + b);
 }
