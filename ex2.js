@@ -9,7 +9,7 @@ function VerificarChuva(provavilidade){
 
     
 }
-let provavilidade = Number(prompt("Qual é a provavilidades em porcentagem que há para chver? leve? forte? "))
+let provavilidade = Number(prompt("Qual é a provavilidades em porcentagem que há para chover? (0 a 100) "))
 
 VerificarChuva(provavilidade)
 
